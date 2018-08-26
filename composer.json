@@ -1,0 +1,24 @@
+{
+    "name": "skillzcms/core",
+    "description": "The SkillzCMS core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakob Kronsteiner",
+            "email": "office@myjackson.at"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "matthiasmullie/minify": "^1.3",
+        "swiftmailer/swiftmailer": "~5.4",
+        "twig/twig": "^2.0",
+        "cocur/slugify": "~3.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "imagine/imagine": "^0.6.3"
+    },
+    "psr-4": {
+            "Skillzcms\\": "src/"
+        },
+    "minimum-stability": "stable"   
+}
