@@ -11,8 +11,10 @@
     "require": {
         "php": ">=7.0.0"
     },
-    "psr-4": {
+    "autoload": {
+        "psr-4": {
             "Skillzcms\\": "src/"
-        },
+        }
+    },
     "minimum-stability": "stable"   
 }
